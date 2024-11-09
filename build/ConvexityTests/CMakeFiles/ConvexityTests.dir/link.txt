@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/ConvexityTests.dir/main.cc.o -o ../Build/bin/ConvexityTests 

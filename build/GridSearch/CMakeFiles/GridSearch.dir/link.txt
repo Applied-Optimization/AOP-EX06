@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/GridSearch.dir/main.cc.o -o ../Build/bin/GridSearch 

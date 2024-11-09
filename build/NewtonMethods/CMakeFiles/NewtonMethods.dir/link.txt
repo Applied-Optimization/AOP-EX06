@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/NewtonMethods.dir/main.cc.o -o ../Build/bin/NewtonMethods 
