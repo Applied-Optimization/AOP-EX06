@@ -1,1 +1,1 @@
-/usr/bin/g++ -g "CMakeFiles/GridSearch-test.dir/unit_tests.cc.o" -o ../Build/bin/GridSearch-test  ../lib/libgtestd.a ../lib/libgtest_maind.a ../lib/libgtestd.a 
+/usr/bin/c++ -O3 -DNDEBUG "CMakeFiles/GridSearch-test.dir/unit_tests.cc.o" -o ../Build/bin/GridSearch-test  ../lib/libgtest.a ../lib/libgtest_main.a ../lib/libgtest.a 

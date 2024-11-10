@@ -1,1 +1,1 @@
-/usr/bin/g++ -g "CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.o" -o ../Build/bin/NewtonMethods-test  ../lib/libgtestd.a ../lib/libgtest_maind.a ../lib/libgtestd.a 
+/usr/bin/c++ -O3 -DNDEBUG "CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.o" -o ../Build/bin/NewtonMethods-test  ../lib/libgtest.a ../lib/libgtest_main.a ../lib/libgtest.a 

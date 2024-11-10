@@ -73,15 +73,15 @@ NewtonMethods/CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.o: NewtonMethods/C
 NewtonMethods/CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.o: /home/deepshukla/aopt-exercise6/aopt-exercise6/NewtonMethods/unit_tests.cc
 NewtonMethods/CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.o: NewtonMethods/CMakeFiles/NewtonMethods-test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/deepshukla/aopt-exercise6/aopt-exercise6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object NewtonMethods/CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.o"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/NewtonMethods && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT NewtonMethods/CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.o -MF CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.o.d -o CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.o -c /home/deepshukla/aopt-exercise6/aopt-exercise6/NewtonMethods/unit_tests.cc
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/NewtonMethods && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT NewtonMethods/CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.o -MF CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.o.d -o CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.o -c /home/deepshukla/aopt-exercise6/aopt-exercise6/NewtonMethods/unit_tests.cc
 
 NewtonMethods/CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.i"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/NewtonMethods && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepshukla/aopt-exercise6/aopt-exercise6/NewtonMethods/unit_tests.cc > CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.i
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/NewtonMethods && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepshukla/aopt-exercise6/aopt-exercise6/NewtonMethods/unit_tests.cc > CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.i
 
 NewtonMethods/CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.s"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/NewtonMethods && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepshukla/aopt-exercise6/aopt-exercise6/NewtonMethods/unit_tests.cc -o CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.s
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/NewtonMethods && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepshukla/aopt-exercise6/aopt-exercise6/NewtonMethods/unit_tests.cc -o CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.s
 
 # Object files for target NewtonMethods-test
 NewtonMethods__test_OBJECTS = \
@@ -92,9 +92,9 @@ NewtonMethods__test_EXTERNAL_OBJECTS =
 
 Build/bin/NewtonMethods-test: NewtonMethods/CMakeFiles/NewtonMethods-test.dir/unit_tests.cc.o
 Build/bin/NewtonMethods-test: NewtonMethods/CMakeFiles/NewtonMethods-test.dir/build.make
-Build/bin/NewtonMethods-test: lib/libgtestd.a
-Build/bin/NewtonMethods-test: lib/libgtest_maind.a
-Build/bin/NewtonMethods-test: lib/libgtestd.a
+Build/bin/NewtonMethods-test: lib/libgtest.a
+Build/bin/NewtonMethods-test: lib/libgtest_main.a
+Build/bin/NewtonMethods-test: lib/libgtest.a
 Build/bin/NewtonMethods-test: NewtonMethods/CMakeFiles/NewtonMethods-test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/deepshukla/aopt-exercise6/aopt-exercise6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../Build/bin/NewtonMethods-test"
 	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/NewtonMethods && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NewtonMethods-test.dir/link.txt --verbose=$(VERBOSE)

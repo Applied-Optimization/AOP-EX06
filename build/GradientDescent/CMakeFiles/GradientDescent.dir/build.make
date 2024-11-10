@@ -73,15 +73,15 @@ GradientDescent/CMakeFiles/GradientDescent.dir/main.cc.o: GradientDescent/CMakeF
 GradientDescent/CMakeFiles/GradientDescent.dir/main.cc.o: /home/deepshukla/aopt-exercise6/aopt-exercise6/GradientDescent/main.cc
 GradientDescent/CMakeFiles/GradientDescent.dir/main.cc.o: GradientDescent/CMakeFiles/GradientDescent.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/deepshukla/aopt-exercise6/aopt-exercise6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object GradientDescent/CMakeFiles/GradientDescent.dir/main.cc.o"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GradientDescent && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GradientDescent/CMakeFiles/GradientDescent.dir/main.cc.o -MF CMakeFiles/GradientDescent.dir/main.cc.o.d -o CMakeFiles/GradientDescent.dir/main.cc.o -c /home/deepshukla/aopt-exercise6/aopt-exercise6/GradientDescent/main.cc
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GradientDescent && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GradientDescent/CMakeFiles/GradientDescent.dir/main.cc.o -MF CMakeFiles/GradientDescent.dir/main.cc.o.d -o CMakeFiles/GradientDescent.dir/main.cc.o -c /home/deepshukla/aopt-exercise6/aopt-exercise6/GradientDescent/main.cc
 
 GradientDescent/CMakeFiles/GradientDescent.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GradientDescent.dir/main.cc.i"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GradientDescent && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepshukla/aopt-exercise6/aopt-exercise6/GradientDescent/main.cc > CMakeFiles/GradientDescent.dir/main.cc.i
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GradientDescent && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepshukla/aopt-exercise6/aopt-exercise6/GradientDescent/main.cc > CMakeFiles/GradientDescent.dir/main.cc.i
 
 GradientDescent/CMakeFiles/GradientDescent.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GradientDescent.dir/main.cc.s"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GradientDescent && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepshukla/aopt-exercise6/aopt-exercise6/GradientDescent/main.cc -o CMakeFiles/GradientDescent.dir/main.cc.s
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GradientDescent && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepshukla/aopt-exercise6/aopt-exercise6/GradientDescent/main.cc -o CMakeFiles/GradientDescent.dir/main.cc.s
 
 # Object files for target GradientDescent
 GradientDescent_OBJECTS = \

@@ -73,15 +73,15 @@ OptimalityChecker/CMakeFiles/OptimalityChecker.dir/main.cc.o: OptimalityChecker/
 OptimalityChecker/CMakeFiles/OptimalityChecker.dir/main.cc.o: /home/deepshukla/aopt-exercise6/aopt-exercise6/OptimalityChecker/main.cc
 OptimalityChecker/CMakeFiles/OptimalityChecker.dir/main.cc.o: OptimalityChecker/CMakeFiles/OptimalityChecker.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/deepshukla/aopt-exercise6/aopt-exercise6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object OptimalityChecker/CMakeFiles/OptimalityChecker.dir/main.cc.o"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/OptimalityChecker && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OptimalityChecker/CMakeFiles/OptimalityChecker.dir/main.cc.o -MF CMakeFiles/OptimalityChecker.dir/main.cc.o.d -o CMakeFiles/OptimalityChecker.dir/main.cc.o -c /home/deepshukla/aopt-exercise6/aopt-exercise6/OptimalityChecker/main.cc
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/OptimalityChecker && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OptimalityChecker/CMakeFiles/OptimalityChecker.dir/main.cc.o -MF CMakeFiles/OptimalityChecker.dir/main.cc.o.d -o CMakeFiles/OptimalityChecker.dir/main.cc.o -c /home/deepshukla/aopt-exercise6/aopt-exercise6/OptimalityChecker/main.cc
 
 OptimalityChecker/CMakeFiles/OptimalityChecker.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OptimalityChecker.dir/main.cc.i"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/OptimalityChecker && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepshukla/aopt-exercise6/aopt-exercise6/OptimalityChecker/main.cc > CMakeFiles/OptimalityChecker.dir/main.cc.i
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/OptimalityChecker && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepshukla/aopt-exercise6/aopt-exercise6/OptimalityChecker/main.cc > CMakeFiles/OptimalityChecker.dir/main.cc.i
 
 OptimalityChecker/CMakeFiles/OptimalityChecker.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OptimalityChecker.dir/main.cc.s"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/OptimalityChecker && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepshukla/aopt-exercise6/aopt-exercise6/OptimalityChecker/main.cc -o CMakeFiles/OptimalityChecker.dir/main.cc.s
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/OptimalityChecker && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepshukla/aopt-exercise6/aopt-exercise6/OptimalityChecker/main.cc -o CMakeFiles/OptimalityChecker.dir/main.cc.s
 
 # Object files for target OptimalityChecker
 OptimalityChecker_OBJECTS = \

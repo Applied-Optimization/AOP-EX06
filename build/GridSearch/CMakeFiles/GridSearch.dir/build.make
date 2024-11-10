@@ -73,15 +73,15 @@ GridSearch/CMakeFiles/GridSearch.dir/main.cc.o: GridSearch/CMakeFiles/GridSearch
 GridSearch/CMakeFiles/GridSearch.dir/main.cc.o: /home/deepshukla/aopt-exercise6/aopt-exercise6/GridSearch/main.cc
 GridSearch/CMakeFiles/GridSearch.dir/main.cc.o: GridSearch/CMakeFiles/GridSearch.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/deepshukla/aopt-exercise6/aopt-exercise6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object GridSearch/CMakeFiles/GridSearch.dir/main.cc.o"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GridSearch && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GridSearch/CMakeFiles/GridSearch.dir/main.cc.o -MF CMakeFiles/GridSearch.dir/main.cc.o.d -o CMakeFiles/GridSearch.dir/main.cc.o -c /home/deepshukla/aopt-exercise6/aopt-exercise6/GridSearch/main.cc
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GridSearch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GridSearch/CMakeFiles/GridSearch.dir/main.cc.o -MF CMakeFiles/GridSearch.dir/main.cc.o.d -o CMakeFiles/GridSearch.dir/main.cc.o -c /home/deepshukla/aopt-exercise6/aopt-exercise6/GridSearch/main.cc
 
 GridSearch/CMakeFiles/GridSearch.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GridSearch.dir/main.cc.i"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GridSearch && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepshukla/aopt-exercise6/aopt-exercise6/GridSearch/main.cc > CMakeFiles/GridSearch.dir/main.cc.i
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GridSearch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepshukla/aopt-exercise6/aopt-exercise6/GridSearch/main.cc > CMakeFiles/GridSearch.dir/main.cc.i
 
 GridSearch/CMakeFiles/GridSearch.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GridSearch.dir/main.cc.s"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GridSearch && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepshukla/aopt-exercise6/aopt-exercise6/GridSearch/main.cc -o CMakeFiles/GridSearch.dir/main.cc.s
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GridSearch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepshukla/aopt-exercise6/aopt-exercise6/GridSearch/main.cc -o CMakeFiles/GridSearch.dir/main.cc.s
 
 # Object files for target GridSearch
 GridSearch_OBJECTS = \

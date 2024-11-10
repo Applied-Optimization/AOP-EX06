@@ -29,6 +29,20 @@ public:
         //      2. to convert a vector d to a (dense) diagonal matrix D, use
         //          D = d.asDiagonal()
 
+        Eigen::SelfAdjointEigenSolver<Mat> solver(_H);
+    Vec evals = solver.eigenvalues();
+    Mat evecs = solver.eigenvectors();
+
+    // Project eigenvalues to ensure positive definiteness
+    for (int i = 0; i < evals.size(); ++i) {
+        if (evals[i] < m_eps) {
+            evals[i] = m_eps;
+        }
+    }
+
+    // Reconstruct the positive definite Hessian matrix
+    Mat D = evals.asDiagonal();
+    _H = evecs * D * evecs.transpose();
         
 
         //------------------------------------------------------//

@@ -73,15 +73,15 @@ GradientDescent/CMakeFiles/GradientDescent-test.dir/unit_tests.cc.o: GradientDes
 GradientDescent/CMakeFiles/GradientDescent-test.dir/unit_tests.cc.o: /home/deepshukla/aopt-exercise6/aopt-exercise6/GradientDescent/unit_tests.cc
 GradientDescent/CMakeFiles/GradientDescent-test.dir/unit_tests.cc.o: GradientDescent/CMakeFiles/GradientDescent-test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/deepshukla/aopt-exercise6/aopt-exercise6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object GradientDescent/CMakeFiles/GradientDescent-test.dir/unit_tests.cc.o"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GradientDescent && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GradientDescent/CMakeFiles/GradientDescent-test.dir/unit_tests.cc.o -MF CMakeFiles/GradientDescent-test.dir/unit_tests.cc.o.d -o CMakeFiles/GradientDescent-test.dir/unit_tests.cc.o -c /home/deepshukla/aopt-exercise6/aopt-exercise6/GradientDescent/unit_tests.cc
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GradientDescent && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GradientDescent/CMakeFiles/GradientDescent-test.dir/unit_tests.cc.o -MF CMakeFiles/GradientDescent-test.dir/unit_tests.cc.o.d -o CMakeFiles/GradientDescent-test.dir/unit_tests.cc.o -c /home/deepshukla/aopt-exercise6/aopt-exercise6/GradientDescent/unit_tests.cc
 
 GradientDescent/CMakeFiles/GradientDescent-test.dir/unit_tests.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GradientDescent-test.dir/unit_tests.cc.i"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GradientDescent && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepshukla/aopt-exercise6/aopt-exercise6/GradientDescent/unit_tests.cc > CMakeFiles/GradientDescent-test.dir/unit_tests.cc.i
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GradientDescent && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepshukla/aopt-exercise6/aopt-exercise6/GradientDescent/unit_tests.cc > CMakeFiles/GradientDescent-test.dir/unit_tests.cc.i
 
 GradientDescent/CMakeFiles/GradientDescent-test.dir/unit_tests.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GradientDescent-test.dir/unit_tests.cc.s"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GradientDescent && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepshukla/aopt-exercise6/aopt-exercise6/GradientDescent/unit_tests.cc -o CMakeFiles/GradientDescent-test.dir/unit_tests.cc.s
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GradientDescent && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepshukla/aopt-exercise6/aopt-exercise6/GradientDescent/unit_tests.cc -o CMakeFiles/GradientDescent-test.dir/unit_tests.cc.s
 
 # Object files for target GradientDescent-test
 GradientDescent__test_OBJECTS = \
@@ -92,9 +92,9 @@ GradientDescent__test_EXTERNAL_OBJECTS =
 
 Build/bin/GradientDescent-test: GradientDescent/CMakeFiles/GradientDescent-test.dir/unit_tests.cc.o
 Build/bin/GradientDescent-test: GradientDescent/CMakeFiles/GradientDescent-test.dir/build.make
-Build/bin/GradientDescent-test: lib/libgtestd.a
-Build/bin/GradientDescent-test: lib/libgtest_maind.a
-Build/bin/GradientDescent-test: lib/libgtestd.a
+Build/bin/GradientDescent-test: lib/libgtest.a
+Build/bin/GradientDescent-test: lib/libgtest_main.a
+Build/bin/GradientDescent-test: lib/libgtest.a
 Build/bin/GradientDescent-test: GradientDescent/CMakeFiles/GradientDescent-test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/deepshukla/aopt-exercise6/aopt-exercise6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../Build/bin/GradientDescent-test"
 	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/GradientDescent && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GradientDescent-test.dir/link.txt --verbose=$(VERBOSE)

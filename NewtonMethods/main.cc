@@ -10,7 +10,7 @@
 
 
 int main(int _argc, const char* _argv[]) {
-    if(_argc != 7) {
+    if(_argc != 8) {
         std::cout << "Usage: input should be 'newton's method(0: standard newton, 1: projected hessian),"
                      "function index(0: f without length, 1: f with length, 2: f with length with positive local hessian),"
                      " number of grid in x, number of grid in y, max iteration, filename', e.g. "
@@ -20,6 +20,7 @@ int main(int _argc, const char* _argv[]) {
 
     //read the input parameters
     int newton_index, func_index, n_grid_x, n_grid_y, max_iter;
+    //method = atoi(_argv[1]);
     newton_index = atoi(_argv[1]);
     func_index = atoi(_argv[2]);
     n_grid_x = atoi(_argv[3]);

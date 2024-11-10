@@ -73,15 +73,15 @@ ConvexityTests/CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.o: ConvexityTest
 ConvexityTests/CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.o: /home/deepshukla/aopt-exercise6/aopt-exercise6/ConvexityTests/unit_tests.cc
 ConvexityTests/CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.o: ConvexityTests/CMakeFiles/ConvexityTests-test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/deepshukla/aopt-exercise6/aopt-exercise6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ConvexityTests/CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.o"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/ConvexityTests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ConvexityTests/CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.o -MF CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.o.d -o CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.o -c /home/deepshukla/aopt-exercise6/aopt-exercise6/ConvexityTests/unit_tests.cc
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/ConvexityTests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ConvexityTests/CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.o -MF CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.o.d -o CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.o -c /home/deepshukla/aopt-exercise6/aopt-exercise6/ConvexityTests/unit_tests.cc
 
 ConvexityTests/CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.i"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/ConvexityTests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepshukla/aopt-exercise6/aopt-exercise6/ConvexityTests/unit_tests.cc > CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.i
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/ConvexityTests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepshukla/aopt-exercise6/aopt-exercise6/ConvexityTests/unit_tests.cc > CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.i
 
 ConvexityTests/CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.s"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/ConvexityTests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepshukla/aopt-exercise6/aopt-exercise6/ConvexityTests/unit_tests.cc -o CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.s
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/ConvexityTests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepshukla/aopt-exercise6/aopt-exercise6/ConvexityTests/unit_tests.cc -o CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.s
 
 # Object files for target ConvexityTests-test
 ConvexityTests__test_OBJECTS = \
@@ -92,9 +92,9 @@ ConvexityTests__test_EXTERNAL_OBJECTS =
 
 Build/bin/ConvexityTests-test: ConvexityTests/CMakeFiles/ConvexityTests-test.dir/unit_tests.cc.o
 Build/bin/ConvexityTests-test: ConvexityTests/CMakeFiles/ConvexityTests-test.dir/build.make
-Build/bin/ConvexityTests-test: lib/libgtestd.a
-Build/bin/ConvexityTests-test: lib/libgtest_maind.a
-Build/bin/ConvexityTests-test: lib/libgtestd.a
+Build/bin/ConvexityTests-test: lib/libgtest.a
+Build/bin/ConvexityTests-test: lib/libgtest_main.a
+Build/bin/ConvexityTests-test: lib/libgtest.a
 Build/bin/ConvexityTests-test: ConvexityTests/CMakeFiles/ConvexityTests-test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/deepshukla/aopt-exercise6/aopt-exercise6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../Build/bin/ConvexityTests-test"
 	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/ConvexityTests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ConvexityTests-test.dir/link.txt --verbose=$(VERBOSE)

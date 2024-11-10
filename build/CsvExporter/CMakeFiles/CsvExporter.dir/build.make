@@ -73,15 +73,15 @@ CsvExporter/CMakeFiles/CsvExporter.dir/main.cc.o: CsvExporter/CMakeFiles/CsvExpo
 CsvExporter/CMakeFiles/CsvExporter.dir/main.cc.o: /home/deepshukla/aopt-exercise6/aopt-exercise6/CsvExporter/main.cc
 CsvExporter/CMakeFiles/CsvExporter.dir/main.cc.o: CsvExporter/CMakeFiles/CsvExporter.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/deepshukla/aopt-exercise6/aopt-exercise6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CsvExporter/CMakeFiles/CsvExporter.dir/main.cc.o"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/CsvExporter && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CsvExporter/CMakeFiles/CsvExporter.dir/main.cc.o -MF CMakeFiles/CsvExporter.dir/main.cc.o.d -o CMakeFiles/CsvExporter.dir/main.cc.o -c /home/deepshukla/aopt-exercise6/aopt-exercise6/CsvExporter/main.cc
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/CsvExporter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CsvExporter/CMakeFiles/CsvExporter.dir/main.cc.o -MF CMakeFiles/CsvExporter.dir/main.cc.o.d -o CMakeFiles/CsvExporter.dir/main.cc.o -c /home/deepshukla/aopt-exercise6/aopt-exercise6/CsvExporter/main.cc
 
 CsvExporter/CMakeFiles/CsvExporter.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CsvExporter.dir/main.cc.i"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/CsvExporter && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepshukla/aopt-exercise6/aopt-exercise6/CsvExporter/main.cc > CMakeFiles/CsvExporter.dir/main.cc.i
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/CsvExporter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepshukla/aopt-exercise6/aopt-exercise6/CsvExporter/main.cc > CMakeFiles/CsvExporter.dir/main.cc.i
 
 CsvExporter/CMakeFiles/CsvExporter.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CsvExporter.dir/main.cc.s"
-	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/CsvExporter && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepshukla/aopt-exercise6/aopt-exercise6/CsvExporter/main.cc -o CMakeFiles/CsvExporter.dir/main.cc.s
+	cd /home/deepshukla/aopt-exercise6/aopt-exercise6/build/CsvExporter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepshukla/aopt-exercise6/aopt-exercise6/CsvExporter/main.cc -o CMakeFiles/CsvExporter.dir/main.cc.s
 
 # Object files for target CsvExporter
 CsvExporter_OBJECTS = \
